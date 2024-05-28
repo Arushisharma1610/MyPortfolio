@@ -1,13 +1,16 @@
+
+
+
 // Icon Toggel Navbar
 
 let newIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
-menuIcon.onclick = () =>{
-    menuIcon.classList.toggle('fa-xmark');
+newIconIcon.onclick = () =>{
+    newIcon.classList.toggle('fa-xmark');
     navbar.classList.toggle('active')
 }
-console.log('clicked');
+// console.log('clicked');
 
 // scroll section active link
 
@@ -40,13 +43,13 @@ window.onscroll = () => {
 };
 
 // typed js
-const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Web Designer', 'A C++ Coder', 'Open Source Contributer'],
-    typeSpeed: 70,
-    backSpeed: 70,
-    backDelay: 1000,
-    loop: true,
-});
+// const typed = new Typed('#multiple-text', {
+//     strings: ['Frontend Developer', 'Web Designer', 'A C++ Coder', 'Open Source Contributer'],
+//     typeSpeed: 70,
+//     backSpeed: 70,
+//     backDelay: 1000,
+//     loop: true,
+// });
 
 // var options = {
 //     strings: ['Frontend Developer', 'Web Designer', 'A C++ Coder', 'Open Source Contributer'],
@@ -57,3 +60,12 @@ const typed = new Typed('.multiple-text', {
 //   };
   
 //   var typed = new Typed('.element', options);
+
+
+var typed = new Typed(".typing", {
+    strings: ["", "A C++ Coder", "Web Developer", "Open Source Enthusiast", "into Machine Learning"],
+    typeSpeed: 100,
+    BackSpeed: 60,
+    loop: true
+});
+
