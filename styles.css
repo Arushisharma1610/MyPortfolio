@@ -49,6 +49,10 @@ section{
     z-index: 100;
 }
 
+.header.a{
+    justify-content: left;
+}
+
 .logo{
     font-size: 2.5rem;
     color: var(--text-color);
