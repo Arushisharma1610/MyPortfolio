@@ -58,7 +58,7 @@ section{
     color: var(--text-color);
     font-weight: 700;
     cursor: default;
-
+    padding: 0;
 }
 
 .navbar a{
@@ -66,6 +66,7 @@ section{
     color: var(--text-color);
     margin-left: 4rem;
     font-weight: 700;
+
 }
 
 .navbar a:hover,
